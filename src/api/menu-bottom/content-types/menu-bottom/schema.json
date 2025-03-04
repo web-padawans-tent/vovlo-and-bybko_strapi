@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_bottoms",
+  "info": {
+    "singularName": "menu-bottom",
+    "pluralName": "menu-bottoms",
+    "displayName": "MenuBottom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service",
+      "mappedBy": "service_item"
+    },
+    "menuLinksAbout": {
+      "displayName": "menu_links",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-links",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "menuLinksSocials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-links",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

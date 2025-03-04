@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_list-container",
+  "info": {
+    "displayName": "List-Container"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "List-Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list-item"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_price_cards",
+  "info": {
+    "displayName": "PriceCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "deadlines": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "descr": {
+      "type": "string"
+    }
+  }
+}
